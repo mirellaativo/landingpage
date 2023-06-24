@@ -10,8 +10,26 @@ body {
 }
 .container-grid {
   width: 85%;
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
+}
+.conteudo-social {
+  background-color: #080324;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  height: 35px;
+  z-index: 50;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 10px;
+}
+.conteudo-social a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding-left: 0.5em;
 }
 header {
   z-index: 1;
@@ -19,6 +37,7 @@ header {
   height: 80px;
   position: fixed;
   width: 100vw;
+  top: 35px;
 }
 .conteudo-header {
   display: flex;
@@ -48,7 +67,7 @@ header {
 .whatsapp {
   position: fixed;
   z-index: 2;
-  top: 200px;
+  top: 82%;
   right: 40px;
 }
 .whatsapp img {
@@ -204,7 +223,7 @@ h1 {
   padding: 55px 55px;
 }
 .texto-endereco p {
-  width: 400px;
+  width: 100%;
   font-size: 20px;
 }
 .container-mapa {
